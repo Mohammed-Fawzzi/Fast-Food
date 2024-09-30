@@ -1,21 +1,26 @@
 import { Facebook, Home, Mail, Phone, Twitter, Youtube } from "lucide-react";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="bg-[#1A1A1A] text-white relative">
-      <img
+      <Image
         src="/price-badge-yellow.webp"
         alt="price-badge-yellow"
-        className="absolute w-40 h-40 bottom-12 right-0"
+        width={150}
+        height={100}
+        className="absolute object-cover bottom-14 right-2"
       />
       <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 py-2 gap-5">
         <div className="border-b sm:border-b md:border-none pb-8 mt-10">
-          <img
+          <Image
             src="/logo.webp"
             alt="footer-logo"
-            className="w-44 h-auto pb-5"
+            width={200}
+            height={150}
+            className="pb-5"
           />
           <p className="text-gray-500 space-y-2">
             Elevate bites, build community, deliver culinary excellence with

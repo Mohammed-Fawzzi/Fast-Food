@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
             <p className="text-gray-400 leading-relaxed text-base sm:text-md md:text-lg">
               Where quick eats and quality collide, crafting a taste sensation.
               Speed meets flavor in every bite, promising a culinary journey
-              that's as swift as it is delicious.
+              thats as swift as it is delicious.
             </p>
             <div className="flex justify-center md:justify-start">
               <button className="my-2 py-2 px-4 md:py-3 md:px-6 bg-[#FFB700] border border-[#FFB700] text-black hover:bg-transparent hover:text-[#FFB700] transition duration-300 flex items-center">
@@ -29,10 +30,12 @@ const Header = () => {
 
           {/* Right Image */}
           <div>
-            <img
+            <Image
               src="/hero-2.png"
               alt="slider"
-              className="w-full h-auto object-cover my-6"
+              width={600}
+              height={300}
+              className="my-6"
             />
           </div>
         </div>

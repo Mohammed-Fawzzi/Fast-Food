@@ -2,6 +2,7 @@ import { PlayCircle } from "lucide-react";
 import React from "react";
 import Delivery from "./Delivery";
 import { mealsData } from "@/Constants/Api";
+import Image from "next/image";
 export default async function Popular() {
   return (
     <>
@@ -19,11 +20,12 @@ export default async function Popular() {
           </div>
           <div className="my-8 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-6">
             {mealsData.map((item) => (
-              <div className="border overflow-hidden">
-                <img
+              <div className="border overflow-hidden" key={item.idMeal}>
+                <Image
                   src={item.strMealThumb}
                   alt={item.strMeal}
-                  className="object-cover w-full h-54 md:h-64"
+                  width={500}
+                  height={300}
                 />
                 <div className="p-2">
                   <h3 className="border-b font-bold text-center text-2xl pb-3">
@@ -45,7 +47,7 @@ export default async function Popular() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <PlayCircle /> <span className="ms-2">View Recipe</span>
+                    <PlayCircle /> <span className="ms-2 c">View Recipe</span>
                   </a>
                 </div>
               </div>

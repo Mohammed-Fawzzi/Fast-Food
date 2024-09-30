@@ -1,4 +1,5 @@
 import { data } from "@/Constants/flavors";
+import Image from "next/image";
 import React from "react";
 
 const Flavors = () => {
@@ -19,9 +20,11 @@ const Flavors = () => {
               className="flex flex-col items-center justify-center border p-3"
               key={item.title}
             >
-              <img
+              <Image
                 src={item.image}
                 alt={item.title}
+                width={100}
+                height={100}
                 className="w-20 h-20 my-4"
               />
               <p className="text-center pb-2">{item.title}</p>

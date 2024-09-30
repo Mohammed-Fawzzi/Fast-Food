@@ -1,13 +1,16 @@
+import Image from "next/image";
 import React from "react";
 
 const Reserve = () => {
   return (
     <section>
       <div className="bg-[#1A1A1A] min-h-screen flex items-center justify-center relative">
-        <img
+        <Image
           src="/plate.webp"
           alt="plate"
-          className="w-60 h-60 absolute bottom-0 right-0"
+          width={200}
+          height={200}
+          className="absolute bottom-0 right-0"
         />
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 z-20">
           {/* Left Content */}

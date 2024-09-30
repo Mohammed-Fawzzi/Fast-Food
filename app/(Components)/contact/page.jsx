@@ -7,10 +7,10 @@ const ContactUs = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center space-y-4">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-4xl text-gray-800 text-center">
-            Let's Connect and Create Memorable Experiences Together
+            Lets Connect and Create Memorable Experiences Together
           </h1>
           <p className="text-center text-slate-500 text-base sm:text-lg md:text-xl">
-            Reach Out for Reservations, Inquiries, or Just to Say Hello – We're
+            Reach Out for Reservations, Inquiries, or Just to Say Hello – We are
             Here to Serve You.
           </p>
         </div>
@@ -43,7 +43,7 @@ const ContactUs = () => {
               Get in Touch with FastFood TNC
             </h1>
           </div>
-          <div className="my-4">
+          <div className="mt-4">
             <form>
               <div className="py-2">
                 <label htmlFor="name" className="text-xl sm:text-2xl font-bold">Name :</label>
