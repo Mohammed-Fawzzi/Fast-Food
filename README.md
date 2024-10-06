@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fast Food TNC
 
-## Getting Started
+Fast Food TNC: is a comprehensive food site that allows you to explore a wide variety of fast food meals, search for any dish, and view detailed recipes and ingredients. The site uses TheMealDB API to provide rich content and display meal data in a professional and engaging way. It features a modern and fully responsive user interface, making it easy to explore meals across different categories.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Meal Browsing: Browse and explore a vast collection of fast food meals using the TheMealDB API(https://www.themealdb.com/api.php).
+- Detailed Meal Information: View detailed information about each meal, including ingredients, preparation instructions, and more.
+- Interactive Interface: Sleek and engaging user interface built with Tailwind CSS, offering smooth navigation and fast interactions.
+- Responsive Design: Fully responsive design that adapts seamlessly to all screen sizes, including mobile, tablet, and desktop.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Next.js: For building a modern, server-side rendered web application.
+- Tailwind CSS: For responsive, utility-first styling.
+- Lucide-react: For lightweight and customizable icons.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Preview
 
-## Learn More
+![Preview Image](/preview/preview.jpeg)
+![Preview Image1](/preview/preview1.jpeg)
+![Preview Image2](/preview/preview2.jpeg)
+![Preview Image3](/preview/preview3.jpeg)
+![Preview Image4](/preview/preview4.jpeg)
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the live demo [here]().
