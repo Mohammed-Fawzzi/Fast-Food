@@ -152,7 +152,7 @@ const Footer = () => {
         <p className="border-t border-slate-700 py-2 text-center">
           © All Rights Reserved
           <Link
-            href="https://www.linkedin.com/in/mohamed-fawzzi-72b962280/"
+            href="https://www.linkedin.com/in/mohamed-fawzzi98/"
             rel="noopener noreferrer"
             target="_blank"
             className="text-decoration-none text-[#FFB700]"

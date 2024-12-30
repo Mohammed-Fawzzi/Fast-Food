@@ -25,4 +25,4 @@ Fast Food TNC: is a comprehensive food site that allows you to explore a wide va
 
 ## Live Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://fast-food-tnc.vercel.app/).
